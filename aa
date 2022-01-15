@@ -1,0 +1,13 @@
+class Singleton{
+
+public:
+static Singleton& get_instance()
+{
+   static Singleton sx;   
+   return sx;
+}
+
+private:
+Singleton();
+
+};
